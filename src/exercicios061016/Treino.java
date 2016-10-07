@@ -13,7 +13,7 @@ public class Treino {
 		int pontosAves = 67;
 	}
 	
-	private void exercicio2(){
+	private int exercicio2(){
 		int[] pontosFora = new int[]{45, 76, 33, 67};
 		/*int[] pontosFora = new int[4];
 		pontosFora[0]= 45;
@@ -26,6 +26,8 @@ public class Treino {
 		int soma = 0;
 		for(int i=0; i<pontosFora.length; i++)
 			soma += pontosFora[i];
+		
+		return soma;
 		
 	}
 	
